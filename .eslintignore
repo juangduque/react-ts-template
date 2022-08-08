@@ -1,0 +1,10 @@
+*.css
+*.svg
+.travis.yml
+firebase.json
+package-lock.json
+package.json
+*\index.html
+*\manifest.json
+README.md
+node_modules

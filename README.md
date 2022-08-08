@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+## React + TS + ESlint + Prettier initial template
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This repo is a basic pre-built React app with Typescript configured with eslint, Prettier and best pratices of airbnb.
 
-## Available Scripts
+This project was created following the instructions of this [Blog](https://andrebnassis.medium.com/setting-eslint-on-a-react-typescript-project-2021-1190a43ffba).
 
-In the project directory, you can run:
+This other [Blog](https://brygrill.medium.com/create-react-app-with-typescript-eslint-prettier-and-github-actions-f3ce6a571c97) was helpful.
 
-### `yarn start`
+##### Bolerplate overview:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- React: [Front end library](https://es.reactjs.org/).
+- Typescript: [Programming language](https://www.typescriptlang.org/).
+- ESlint: [Linter](https://eslint.org/).
+- Prettier: [Formater](https://prettier.io/).
+- Airbnb Rules: [Plugin](https://yarnpkg.com/package/eslint-config-airbnb).
+- Yarn: [Node package manager](https://classic.yarnpkg.com/en/).
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+#### Reason for existence of this repository
 
-### `yarn test`
+Those of us who have been working with React for a long time know that Typescript is a better option.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To ensure that the code written is of high quality, ESlint is installed to highlight style errors in the code of the .css, .ts and .tsx files mainly. Prettier for formatting styles and airbnb plugin which is one of the most popular rules plugin in the industry these days.
 
-### `yarn build`
+#### Considerations
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+##### ESlint Rules
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The rules that I have set, was given by my own criteria or by my preference, but feel free to modify them to put the ones that best suit your projects.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+I recommend this [documentation](https://typescript-eslint.io/) about Typescript and ESlint rules.
 
-### `yarn eject`
+##### Prettier
+Like the ESLint rules, these also can also be modified to your preference.
+See for [options](https://prettier.io/docs/en/options.html) in here.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#### Disclaimers
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- You can download the files or fork the repo to start a project with this initial setup.
+- If you clone the repository, you will not be able to push to this repository.
+- By the moment I don't accept PR's to change the basecode.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+I hope you find it useful.
