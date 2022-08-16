@@ -30,6 +30,14 @@ module.exports = {
 			typescript: {},
 		},
 	},
+	overrides: [
+    {
+      files: ['*.ts', '*.tsx'], 
+      parserOptions: {
+        project: ['./tsconfig.json'], 
+      },
+    }
+  ],
 	rules: {
 		'import/extensions': [
 			'error',
