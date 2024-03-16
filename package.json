@@ -1,5 +1,5 @@
 {
-  "name": "clio-project",
+  "name": "react-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -11,7 +11,9 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
+    "react-router-dom": "^6.22.3",
+    "react-scripts": "5.0.1",
+    "sass": "^1.72.0"
   },
   "devDependencies": {
     "@types/node": "^16.7.13",
