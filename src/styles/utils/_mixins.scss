@@ -1,0 +1,11 @@
+@mixin main {
+	position: relative;
+	z-index: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: auto;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: 86px;
+}

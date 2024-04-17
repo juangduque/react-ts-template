@@ -1,0 +1,9 @@
+@import './utils/mixins';
+
+main {
+  @include main;
+}
+
+h1{
+  background-color: blue;
+}

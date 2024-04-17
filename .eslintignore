@@ -8,3 +8,4 @@ package.json
 *\manifest.json
 README.md
 node_modules
+.eslintrc.js
